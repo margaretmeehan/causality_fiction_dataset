@@ -5,6 +5,6 @@ Link to paper forthcoming. This repository contains the data used to train model
 ## File Descriptions
 
 - **CausalityAnnotationHandbook**: This is the guidebook we gave students before they annotated causal pairs in the selected passages. 
-- **UNPROCESSED_literary_data.csv**: These are the unfiltered pairs marked as causally related. 
+- **POSITIVE_literary_data.csv**: These are the unfiltered pairs marked as causally related. 
 - **BERT_literary_data.csv**: This is the data used to train our BERT model. It contains only intra-sentence causal pairs, since this model worked at the sentence level only. 
 - **PAIRS_literary_data.csv**: This is the data used to create our features for the causal pair model. 
